@@ -1,0 +1,1375 @@
+/* MAIN SEC */
+.main-sec {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+.sec-title {
+    color: #31496B;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.sec-title span {
+    color: #FFAF5C;
+}
+
+.main__sec-data {
+    margin-top: 32px;
+}
+
+/* swipper */
+.swiper-wrapper {
+    display: flex;
+}
+
+.data__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.data__items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.data__item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 9px;
+}
+
+.data__item:hover {
+    background: #ffb05c57;
+    cursor: pointer;
+}
+
+.data__wrap .data-month {
+    color: #A7A0A0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.data__item b {
+    text-align: center;
+    font-weight: 600;
+    color: #31496B;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.data__item p {
+    color: #A7A0A0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.data__item .day-off {
+    color: #FFAF5C;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+
+.swiper-button-next {
+    margin-right: -10px;
+}
+
+.swiper-button-prev {
+    margin-left: -10px;
+    transform: rotate(-180deg);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-image: url(../images/icons/arrow-right.svg);
+    background-size: cover;
+    background-color: #F2F2F2 !important;
+    object-fit: contain;
+    padding: 5px 20px;
+    width: 52px;
+    height: 52px;
+    margin-top: -10px;
+}
+
+.slide__carousel {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.slide__carousel .swiper {
+    overflow: visible;
+}
+
+.slide__carousel .swiper-wrapper {
+    justify-content: center;
+}
+
+.slide__carousel .swiper-slide {
+    height: 480px;
+    opacity: 0.5;
+}
+
+.slide__carousel .swiper-slide-next {
+    transition: .2s;
+}
+
+.slide__carousel .swiper-slide-next {
+    transform: scaleY(1.1) translateY(25px);
+    opacity: 1;
+    margin-bottom: 192px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.slide__carousel .main__slide-content {
+    position: absolute;
+    left: 32px;
+    bottom: -42px;
+}
+
+.mySwiper2 .main__slide-content {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+}
+
+.main__text-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    color: #FFF;
+}
+
+.main__slide-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    max-width: 615px;
+}
+
+.main__text-content .main__slide-text {
+    max-width: 534px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.main__text-content b {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 16px;
+    width: 167px;
+    border-radius: 12px;
+    background: rgba(242, 242, 242, 0.16);
+    margin-bottom: 24px;
+}
+
+.main__text-content .main__slide-data {
+    color: #A7A0A0;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+.main__slide-btn {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FFAF5C;
+    transition: .3s ease-in-out;
+}
+
+.main__slide-btn:hover {
+    background: #A7A0A0;
+}
+
+/* MAIN CARD */
+.main-card {
+    padding-bottom: 64px;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-title .main__title-link {
+    color: #31496B;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+.card__items {
+    margin-bottom: 64px;
+}
+
+.card__item {
+    cursor: pointer;
+    margin-bottom: 32px;
+    border-radius: 12px;
+    transition: .3s ease-in-out;
+}
+
+.card__item:hover {
+    box-shadow: 0px 5px 15px 5px rgba(138, 138, 138, 0.281);
+}
+
+.card__item .card__img {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__item .card__img img {
+    width: 100%;
+}
+
+.card__img b {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(6px);
+    padding: 8px;
+}
+
+.card__content {
+    padding: 16px;
+    border-radius: 0px 0px 12px 12px;
+    background: #FFF;
+}
+
+.card__content .card-title {
+    color: #31496B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card__content .card-data {
+    color: #A7A0A0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* CONCERT */
+.concert-info {
+    padding-bottom: 44px;
+}
+
+.concert__info-wrap {
+    display: flex;
+    justify-content: center;
+    row-gap: 24px;
+}
+
+.concert__info-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.concert__info-img {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.concert__info-img img {
+    transition: .3s ease-in-out;
+    width: 100%;
+    object-fit: cover;
+}
+
+.concert__info-item:hover .concert__info-img img {
+    transform: scale(1.2);
+}
+
+.concert__info-item .concert__item-content {
+    position: absolute;
+    left: 26px;
+    bottom: 16px;
+    max-width: 340px;
+    color: #FFF;
+}
+
+.concert__item-content .concert__item-title {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.concert__item-content .concert__item-data {
+    font-size: 20px;
+    line-height: 28px;
+    opacity: .6;
+}
+
+.consert-btn {
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #FFAF5C;
+    color: #FFAF5C;
+    font-size: 20px;
+    line-height: 28px;
+    width: 98%;
+    margin: auto;
+    transition: .3s ease-in-out;
+}
+
+.consert-btn:hover {
+    background: #FFAF5C;
+    color: #FFF;
+}
+
+/* CATALOG */
+.catolog-main {
+    padding-top: 26px;
+    padding-bottom: 24px;
+}
+
+.breadcrumb {
+    margin-top: 16px;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #B0B6BB;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.breadcrumb .breadcrumb-item.active {
+    color: #072E4D;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    color: #072E4D;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../images/icons/chevron-right.svg);
+    position: relative;
+    margin-right: 7px;
+    top: 2px;
+    padding: 0;
+}
+
+.main__catalog-card {
+    padding-bottom: 83px;
+}
+
+.card__item-filter {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.card__filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 16px;
+    border-radius: 12px;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    color: #31496B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: .3s ease-in-out;
+    white-space: nowrap;
+}
+
+.card__filter-btn:hover {
+    background: #31496B;
+    color: #fff;
+}
+
+.card__item-filter .card__filter-btn:hover svg path {
+    stroke: #fff !important;
+}
+
+.main-card .catalog__card-items {
+    margin-bottom: 31px;
+}
+
+.card__filter-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.card__filter-item .filter__card-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card__filter-num {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card__filter-num span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FFF;
+    cursor: pointer;
+    color: #31496B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.filter__result-num {
+    display: flex;
+    align-items: center;
+    color: #31496B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    gap: 4px;
+    margin-left: 16px;
+}
+
+.filter__result-num b {
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+/* CONCERT PAGE */
+.main-concert {
+    padding-top: 26px;
+    padding-bottom: 64px;
+}
+
+/* ABOUT EVENT */
+.about-event {
+    padding-bottom: 40px;
+}
+
+.music__about-event {
+    padding-bottom: 63px;
+}
+
+.about__event-text {
+    margin-top: 32px;
+    max-width: 872px;
+    color: #31496B;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.about__event-img {
+    margin-top: 64px;
+}
+
+.about__event-img img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+/* BUY TICKET */
+.buy-ticket {
+    padding-bottom: 39px;
+}
+
+.buy-ticket .buy__ticket-content {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.buy-ticket .buy__ticket-content img {
+    width: 100%;
+}
+
+/* REVIEWS CARD */
+.reviews {
+    padding-bottom: 64px;
+}
+
+.reviews__cards {
+    margin-top: 32px;
+}
+
+.reviews__card {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-bottom: 24px;
+}
+
+.reviews__card:hover {
+    box-shadow: 0px 5px 25px 0px rgba(138, 138, 138, 0.397);
+}
+
+.reviews__card-top {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.reviews__card-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reviews__card-name p {
+    color: #272727;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reviews__card-name img {
+    width: 96px;
+}
+
+.reviews__card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__content-text {
+    display: -webkit-box;
+    max-width: 312px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    color: #272727;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.reviews__content-link {
+    color: #439799;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.reviews__content-data {
+    color: rgba(39, 39, 39, 0.40);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* PERSON */
+.main__person {
+    padding-bottom: 40px;
+}
+
+.main__person-items {
+    margin-top: 32px;
+}
+
+.main__person-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-bottom: 24px;
+}
+
+.main__person-item:hover {
+    box-shadow: 0px 5px 25px 0px rgba(138, 138, 138, 0.281);
+}
+
+.person-name {
+    color: #272727;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main__person-item b {
+    margin-left: 21px;
+}
+
+/* LOCATION */
+.concert__location {
+    padding-bottom: 64px;
+}
+
+.concert__location-wrap {
+    position: relative;
+    margin-top: 32px;
+}
+
+.concert__location-wrap .location-img {
+    width: 100%;
+    object-fit: cover;
+    height: 560px;
+    border-radius: 24px;
+}
+
+.location-info {
+    position: absolute;
+    left: 18px;
+    bottom: 26px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 79px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.location-address {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.concert__address-wrap {
+    display: flex;
+    flex-direction: column;
+    color: #072E4D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.concert__address-wrap a {
+    font-size: 14px;
+    color: #072E4D;
+    line-height: 20px;
+}
+
+.tg-link {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: rgba(19, 45, 74, 0.70);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tg-link a {
+    color: #072E4D;
+}
+
+.address-btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #FFAF5C;
+    cursor: pointer;
+}
+
+/* CONCERT CARD */
+.concert-card {
+    padding-bottom: 52px;
+}
+
+.concert__card-items {
+    margin-top: 31px;
+}
+
+.concert__card-item {
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.concert__card-item .card__img {
+    position: relative;
+    overflow: hidden;
+    width: 264px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.concert__card-item:hover .card__img img {
+    transform: scale(1.2);
+}
+
+.concert__card-item,
+.concert__card-item .card__content {
+    width: 264px;
+}
+
+.concert__card-item .card__img img {
+    width: 264px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.concert__card-item .card__img b {
+    left: 8px;
+    top: 8px;
+}
+
+/* MUSIC ABOUT */
+.music__about-text {
+    max-width: 944px;
+}
+
+.awards {
+    padding-bottom: 64px;
+}
+
+.awards-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.awards-item {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.awards-item:hover {
+    box-shadow: 0px 5px 25px 0px rgba(138, 138, 138, 0.281);
+}
+
+/* MUSIC CARDS */
+.music-video {
+    padding-bottom: 64px;
+}
+
+.music__cards {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+.music-cards-img{
+    position: relative;
+    border-radius: 12px;
+}
+.music__video-img{
+    width: 100%;
+}
+.music__video-play {
+    position: absolute;
+    top: 37%;
+    left: 42%;
+    width: 100%;
+    height: 100%;
+}
+
+.music__video-play i {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    font-size: 1.2rem;
+    background: #FFF;
+    border-radius: 50%;
+    color: #31496B;
+    transition: .2s ease-in-out;
+}
+
+.music__video-play i:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.music__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.music__video-img {
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+.music__card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.music__card-content .music__content-title {
+    color: #31496B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.music__card-content .music__content-data {
+    color: #31496B;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.music__about-card .card__items {
+    margin-bottom: 0;
+}
+
+.music__card-btn {
+    display: none;
+}
+
+/* TEAM */
+.team-content {
+    padding-top: 24px;
+}
+
+.team__card-content {
+    padding-bottom: 48px;
+}
+
+.team__card {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.team__card img {
+    width: 100%;
+}
+
+.team__cards {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__card .team__content-title {
+    color: #31496B;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 288px;
+}
+
+.team__iteam-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.team__content-text {
+    margin-bottom: 64px;
+}
+
+.team__card-text {
+    color: #31496B;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 360px;
+}
+
+/* TEAM CONTACT */
+.team-contact {
+    padding-bottom: 88px;
+}
+
+.team__contact-wrap {
+    margin-top: 32px;
+}
+
+.team__contact-wrap .team__inp-item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.team__inp-item .team__contact-inp {
+    height: 40px;
+    padding: 6px 14px;
+    min-width: 224px;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #A7A0A0;
+    color: #A7A0A0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.team__contact-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.team__contact-submit button {
+    height: 40px;
+    min-width: 224px;
+    padding: 4px;
+    border-radius: 12px;
+    background: #FFAF5C;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: .3s ease-in-out;
+}
+
+.team__contact-submit button:hover {
+    background: #A7A0A0;
+}
+
+.team__contact-text {
+    max-width: 260px;
+    color: #31496B;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.06px;
+    margin-top: 5px;
+}
+
+
+/* ERROR PAGE */
+.error-content {
+    padding: 26px 0 84px;
+}
+
+.error__content-wrap {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.error-btn {
+    padding: 4px 16px;
+    border-radius: 8px;
+    border: 1px solid #A7A0A0;
+    color: #A7A0A0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.error__contant-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.error__content-text {
+    color: #31496B;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.error__content-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 40px;
+    min-width: 224px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 12px;
+    background: #FFAF5C;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.error__content-btn:hover {
+    background: #A7A0A0;
+}
+
+
+
+
+
+/* @MEDIA */
+@media only screen and (max-width: 1250px) {
+    .slide__carousel .swiper-slide-next {
+        margin-bottom: 100px;
+    }
+
+    .slide__carousel .main__slide-content {
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .wrapper {
+        padding: 0;
+    }
+
+    .header .navbar__nav,
+    .header .header-search,
+    .body-img,
+    .ftr__img-wrap {
+        display: none;
+    }
+
+    .header-bars {
+        display: flex;
+        justify-content: end;
+    }
+
+    .header__mobile {
+        display: block;
+    }
+
+    .team__cards {
+        justify-content: center;
+    }
+
+    .error__content-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .team__contact-submit {
+        margin-top: 16px;
+    }
+
+    .swiper-slide img {
+        object-fit: cover;
+        height: 560px;
+        border-radius: 24px;
+    }
+
+    .awards-item {
+        width: 100%;
+    }
+
+    .slide__carousel .main__slide-content {
+        bottom: -42px;
+    }
+
+    .slide__carousel .swiper-slide-next {
+        margin-bottom: 142px;
+    }
+
+    .bottom__menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header__nav-wrap {
+        margin-bottom: 16px;
+    }
+
+    .concert__location-wrap,
+    .location-info {
+        position: static;
+    }
+
+    .location-info {
+        margin-top: 16px;
+        gap: 32px;
+    }
+
+    .card__item-none {
+        display: none;
+    }
+
+    .team__card-content,
+    .main__person {
+        padding-bottom: 16px;
+    }
+
+    .music-video {
+        padding-bottom: 24px;
+    }
+
+    .awards,
+    .music__about-event,
+    .main-concert,
+    .about__event-img,
+    .reviews,
+    .main-sec,
+    .main-card,
+    .team-contact {
+        padding-bottom: 32px;
+    }
+
+    .team__content-text,
+    .slide__carousel {
+        margin-bottom: 32px;
+    }
+
+    .main-title {
+        margin-bottom: 24px;
+    }
+
+    .music__card-btn {
+        display: block;
+    }
+
+    .card__items {
+        margin-bottom: 20px;
+    }
+
+    .about__event-img,
+    .concert-card {
+        padding-bottom: 0;
+    }
+
+    .ftr__pattern-img {
+        margin-top: 25px;
+    }
+
+    .main__sec-data {
+        margin-top: 16px;
+    }
+
+    .card__item-filter {
+        overflow-x: scroll;
+    }
+
+    .card__item-filter::-webkit-scrollbar {
+        height: 0;
+    }
+
+    .slide__carousel {
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .filter__result-num,
+    .card__filter-num .filter__num-none {
+        display: none;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-size: contain;
+        object-fit: contain;
+        width: 45px;
+        height: 45px;
+        margin-top: -3px;
+    }
+
+    .slide__carousel .swiper-slide img {
+        margin-left: 13px;
+    }
+
+    .swiper-button-next {
+        margin-right: -25px;
+    }
+
+    .swiper-button-prev {
+        margin-left: -25px;
+    }
+
+    .concert__item-content .concert__item-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .concert__item-content .concert__item-data {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* HEADER */
+    .header {
+        padding: 24px 5px 0;
+    }
+
+    .sec-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main-title .main__title-link {
+        display: none;
+    }
+
+    /* FOOTER */
+    .ftr__bottom {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .ftr-title {
+        font-size: 26px;
+        line-height: 140%;
+    }
+
+    .ftr-text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* ERROR */
+    .error-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .error-content {
+        padding-bottom: 60px;
+    }
+
+    /* TEAM */
+    /* MUSIC ABOT */
+    .concert__slide-title,
+    .main__slide-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .main__slide-title {
+        width: 221px;
+    }
+
+    .main__slide-text {
+        width: 247px;
+    }
+
+    .main__text-content .main__slide-text,
+    .main__text-content .main__slide-data {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .main__slide-btn {
+        font-size: 16px;
+        padding: 10px 24px;
+    }
+
+    .slide__carousel .main__slide-btn {
+        padding: 5px 24px;
+    }
+
+    .breadcrumb .breadcrumb-item a {
+        font-size: 12px;
+    }
+
+    .about__event-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .music__card-content .music__content-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /* CONCERT */
+    .card__content .card-title,
+    .card__content .card-data {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .concert__location-wrap .location-img {
+        height: 217px;
+    }
+
+
+    .concert__info-img img {
+        height: 320px;
+    }
+
+    .main-card1 .card__items {
+        margin-bottom: 8px;
+    }
+
+    .card__item {
+        margin-bottom: 24px;
+    }
+
+    .concert__info-wrap {
+        row-gap: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .card__filter-item .filter__card-btn {
+        padding: 8px 13px;
+        font-size: 14px;
+    }
+
+    .card__filter-item {
+        gap: 10px;
+    }
+}
