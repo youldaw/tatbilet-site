@@ -14,6 +14,20 @@ $(function () {
         }
     });
 
+    $('.consert-btn').on('click', function (e) {
+        e.preventDefault();
+        $( ".reviews__cards .hidden" ).slideDown( "slow", function(){
+
+        });
+    });
+
+    $('.consert-btn').on('click', function (e) {
+        e.preventDefault();
+        $( ".concert__info-wrap .hidden" ).slideDown( "slow", function(){
+
+        });
+    });
+
 });
 
 
@@ -24,7 +38,7 @@ $(function () {
 let swiper = new Swiper(".mySwiper", {
     slidesPerView: 20,
     spaceBetween: 26,
-    speed: 500,
+    speed: 1000,
     loop: true,
     centeredSlides: true,
     grabCursor: true,
@@ -64,7 +78,7 @@ let swiper1 = new Swiper(".mySwiper1", {
     grabCursor: true,
     loop: true,
     centeredSlides: true,
-    speed: 1500,
+    speed: 1000,
 });
 
 // swipper 3
@@ -73,9 +87,9 @@ let swiper2 = new Swiper(".mySwiper2", {
     spaceBetween: 28,
     grabCursor: true,
     loop: true,
-    speed: 1500,
+    speed: 1000,
     autoplay: {
-        delay: 1000,
+        delay: 3000,
     },
 });
 
