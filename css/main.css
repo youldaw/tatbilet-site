@@ -1549,6 +1549,8 @@ circle {
 }
 /* FOOTER END */
 
+.for-mob {display: none !important;}
+
 
 
 /* @MEDIA */
@@ -1622,6 +1624,12 @@ circle {
 }
 
 @media only screen and (max-width: 767px) {
+    .for-pc {
+        display: none !important;
+    }
+    .for-mob {
+        display: block !important;
+    }
     .header__nav-wrap {
         margin-bottom: 16px;
     }
