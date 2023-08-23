@@ -1,10 +1,32 @@
+$(function () {
+
+    $('.header-search').on('click', function (e) {
+        e.preventDefault();
+        $(this).addClass('active');
+    });
+
+
+    $(document).mouseup(function (e) {
+        var div = $(".header-search");
+        if (!div.is(e.target)
+            && div.has(e.target).length === 0) {
+            div.removeClass('active');
+        }
+    });
+
+});
+
+
+
+
 // swipper 1
 
 let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 20,
+    spaceBetween: 26,
+    speed: 500,
+    loop: true,
     centeredSlides: true,
-    slidesPerView: 1.1,
-    spaceBetween: 480,
-    speed: 1500,
     grabCursor: true,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -12,20 +34,24 @@ let swiper = new Swiper(".mySwiper", {
     },
     breakpoints: {
         300: {
-            slidesPerView: 1,
-            spaceBetween: 1280,
+            slidesPerView: 5,
+            spaceBetween: 10,
+        },
+        370: {
+            slidesPerView: 7,
+            spaceBetween: 10,
         },
         700: {
-            slidesPerView: 1,
-            spaceBetween: 940,
+            slidesPerView: 10,
+            spaceBetween: 10,
         },
         1000: {
-            slidesPerView: 1,
-            spaceBetween: 550,
+            slidesPerView: 16,
+            spaceBetween: 20,
         },
         1360: {
-            slidesPerView: 1,
-            spaceBetween: 480,
+            slidesPerView: 20,
+            spaceBetween: 20,
         }
     }
 });
@@ -36,6 +62,8 @@ let swiper1 = new Swiper(".mySwiper1", {
     slidesPerView: 1,
     spaceBetween: 28,
     grabCursor: true,
+    loop: true,
+    centeredSlides: true,
     speed: 1500,
 });
 
@@ -50,6 +78,7 @@ let swiper2 = new Swiper(".mySwiper2", {
         delay: 1000,
     },
 });
+
 
 
 
